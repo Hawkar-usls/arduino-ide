@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **Upstream-derived working copy.** The Arduino IDE codebase and primary authorship belong to the [Arduino project and contributors](https://github.com/arduino/arduino-ide). Hawkar does not claim authorship of the base code. See [`UPSTREAM_MIRROR_NOTICE.md`](UPSTREAM_MIRROR_NOTICE.md).
+
 <img src="https://content.arduino.cc/website/Arduino_logo_teal.svg" height="100" align="right" />
 
 # Arduino IDE 2.x
