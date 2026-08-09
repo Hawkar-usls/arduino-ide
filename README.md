@@ -1,58 +1,29 @@
-> [!IMPORTANT]
-> **Upstream-derived working copy.** The Arduino IDE codebase and primary authorship belong to the [Arduino project and contributors](https://github.com/arduino/arduino-ide). Hawkar does not claim authorship of the base code. See [`UPSTREAM_MIRROR_NOTICE.md`](UPSTREAM_MIRROR_NOTICE.md).
+<div align="center">
 
-<img src="https://content.arduino.cc/website/Arduino_logo_teal.svg" height="100" align="right" />
+# Arduino IDE 2.x — upstream-derived working copy
 
-# Arduino IDE 2.x
+`UPSTREAM_DERIVED` · `BASE AUTHORSHIP NOT CLAIMED`
 
-[![Build status](https://github.com/arduino/arduino-ide/actions/workflows/build.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/build.yml)
-[![Check JavaScript status](https://github.com/arduino/arduino-ide/actions/workflows/check-javascript.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/check-javascript.yml)
-[![Test JavaScript status](https://github.com/arduino/arduino-ide/actions/workflows/test-javascript.yml/badge.svg)](https://github.com/arduino/arduino-ide/actions/workflows/test-javascript.yml)
+</div>
 
-This repository contains the source code of the Arduino IDE 2.x. If you're looking for the old IDE, go to the [repository of the 1.x version](https://github.com/arduino/Arduino).
+This repository is retained as a working/reference copy of the upstream **Arduino IDE 2.x** project.
 
-The Arduino IDE 2.x is a major rewrite, sharing no code with the IDE 1.x. It is based on the [Theia IDE](https://theia-ide.org/) framework and built with [Electron](https://www.electronjs.org/). The backend operations such as compilation and uploading are offloaded to an [arduino-cli](https://github.com/arduino/arduino-cli) instance running in daemon mode. This new IDE was developed with the goal of preserving the same interface and user experience of the previous major version in order to provide a frictionless upgrade.
+**Official upstream:** https://github.com/arduino/arduino-ide
 
-![](static/screenshot.png)
+The Arduino team and upstream contributors own the base project's authorship. Hawkar does **not** claim authorship of the Arduino IDE codebase, architecture or upstream documentation.
 
-## Download
+## How to evaluate this repository
 
-You can download the latest release version and nightly builds from the [software download page on the Arduino website](https://www.arduino.cc/en/software).
+Any Hawkar-specific work should be evaluated only as an explicit diff against a corresponding upstream revision.
 
-## Support
+- Attribution notice: [`UPSTREAM_MIRROR_NOTICE.md`](UPSTREAM_MIRROR_NOTICE.md)
+- Machine-readable status: [`PROJECT_STATUS.json`](PROJECT_STATUS.json)
+- Official build/docs/issues: [upstream repository](https://github.com/arduino/arduino-ide)
 
-If you need assistance, see the [Help Center](https://support.arduino.cc/hc/en-us/categories/360002212660-Software-and-Downloads) and browse the [forum](https://forum.arduino.cc/index.php?board=150.0).
+```text
+PORTFOLIO_CLASS = UPSTREAM_DERIVED_WORKING_COPY
+BASE_AUTHORSHIP_CLAIMED_BY_HAWKAR = FALSE
+FLAGSHIP_HAWKAR_RESEARCH = FALSE
+```
 
-## Bugs & Issues
-
-If you want to report an issue, you can submit it to the [issue tracker](https://github.com/arduino/arduino-ide/issues) of this repository.
-
-See [**the issue report guide**](docs/contributor-guide/issues.md#issue-report-guide) for instructions.
-
-### Security
-
-If you think you found a vulnerability or other security-related bug in this project, please read our
-[security policy](https://github.com/arduino/arduino-ide/security/policy) and report the bug to our Security Team 🛡️
-Thank you!
-
-e-mail contact: security@arduino.cc
-
-## Contributions and development
-
-Contributions are very welcome! There are several ways to participate in this project, including:
-
-- Fixing bugs
-- Beta testing
-- Translation
-
-See [**the contributor guide**](docs/CONTRIBUTING.md#contributor-guide) for more information.
-
-See the [**development guide**](docs/development.md) for a technical overview of the application and instructions for building the code.
-
-### Support the project
-
-This open source code was written by the Arduino team and is maintained on a daily basis with the help of the community. We invest a considerable amount of time in development, testing and optimization. Please consider [buying original Arduino boards](https://store.arduino.cc/) to support our work on the project.
-
-## License
-
-The code contained in this repository and the executable distributions are licensed under the terms of the GNU AGPLv3. The executable distributions contain third-party code licensed under other compatible licenses such as GPLv2, MIT and BSD-3. If you have questions about licensing please contact us at [license@arduino.cc](mailto:license@arduino.cc).
+Licensing remains governed by the upstream project and the license files included in this copy.
